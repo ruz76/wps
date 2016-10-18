@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+  <beans>
+    <bean id="helloWPS" class="org.geoserver.hello.wps.HelloWPS"/>
+    <bean id="searchWPS" class="org.geoserver.hello.wps.SearchWPS"/>
+    <bean id="overlayWPS" class="org.geoserver.hello.wps.OverlayWPS"/>
+    <bean id="bboxWPS" class="org.geoserver.hello.wps.BboxWPS"/>
+    <bean id="overlayWPSwithWMSoutput" class="org.geoserver.hello.wps.OverlayWPSwithWMSoutput"/>
+    <bean id="externalSourceWPS" class="org.geoserver.hello.wps.ExternalSourceWPS"/>
+    <bean id="postGISWPS" class="org.geoserver.hello.wps.PostGISWPS"/>
+    <bean id="networkingWPS" class="org.geoserver.hello.wps.NetworkingWPS"/>
+    <bean id="overlayWPSwithCollectionOutput" class="org.geoserver.hello.wps.OverlayWPSwithCollectionOutput"/>
+  </beans>
